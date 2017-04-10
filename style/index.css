@@ -1,0 +1,92 @@
+/*загальні стилі*/
+body{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.container {
+	text-align: center;
+	background-clip: content-box;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*заголовок*/
+.header {
+	height: 100%;
+	margin-top: 10px;
+	background: linear-gradient(160deg, #FFFFFF, #FFA500);
+	border: 2px solid orange;
+	font-family: 'Indie Flower', cursive;
+}
+
+.header h1 {
+	color: #b30000;
+}
+
+#logo {
+	float: left;
+	margin-left: 10px;
+}
+
+/*навігація*/
+.page-navigation {
+	background-color: #ff9900;
+	border: 2px solid orange;
+	min-height: 64px;
+}
+
+.page-navigation li {
+	float: right;
+	width: 100px;
+}
+
+.page-navigation a {
+	display: block;
+	color: #990000;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*основна частина*/
+.classical-title h2, 
+.reason-title h2 {
+	text-align: right;
+	border-bottom: 1px solid #777;
+	font-size: 37px;
+}
+
+.classical-text {
+	padding: 5px;
+	font-size: 30;
+}
+
+.classical-text img {
+	float: right;
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 5px;
+}
+
+.reason-text img {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+/*підвал*/
+.footer {
+	padding: 5px;
+}

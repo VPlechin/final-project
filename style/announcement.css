@@ -1,0 +1,26 @@
+/*загальні стилі*/
+body{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+
+/*основна частина*/
+.bookshelf h1 {
+	text-align: right;
+	border-bottom: 1px solid #777;
+	font-size: 37px;
+}
+
+.announce-book {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+
+.announce-book p {
+	min-height: 35px;
+}
